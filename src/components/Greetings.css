@@ -1,0 +1,29 @@
+.greeting {
+    max-width: 680px;
+    margin: 4rem 0 2.5rem;
+}
+
+.greeting__eyebrow {
+    color: #5eead4;
+    font-size: 0.7rem;
+    font-weight:100;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.greeting h1 {
+    color: #040404;
+    font-size: clamp(2rem, 3vw, 2.9rem);
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+    font-weight: 800;
+    margin: 0.7rem 0 1rem;
+}
+
+.greeting p {
+    color: #000000;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin: 0;
+    background: transparent;
+}
