@@ -6,7 +6,7 @@ const UserCard = ({
     profession,
     avatarUrl,
     isMentor = false,
-    Children
+    children
 }) => {
     return (
         <article className={style.card}>
@@ -18,9 +18,10 @@ const UserCard = ({
                 </div>
                 <p className={style.profession}>{profession}</p>
                 <p className={style.age}>{age} anos</p>
-                {Children}
+                {children}
             </div>
         </article>
-    )
-}
+    );
+};
+
 export default UserCard;
